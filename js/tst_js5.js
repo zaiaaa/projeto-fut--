@@ -15,5 +15,4 @@ switch(dia_semana){
         break
     case 6: alert("Maravilha! Sábado é dia de fut");
         break
-    default: alert("Que semana longa.");
 }
