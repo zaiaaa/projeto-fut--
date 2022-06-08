@@ -5,11 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>..:: Landing Page ::..</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
 
-    <link rel="stylesheet" media="screen and (max-width:1200px)" href="./css/layout_tablet.css">
+    <!--<link rel="stylesheet" media="screen and (max-width:1200px)" href="./css/layout_tablet.css">    -->
 
-    <link rel="stylesheet" media="screen and (max-width: 768px)" href="./css/layout_smartphone.css">
+    <link rel="stylesheet" href="./css/layout_smartphone.css">
     
     <script src="https://kit.fontawesome.com/b7a0eff3c2.js" crossorigin="anonymous"></script>
 </head>
@@ -18,9 +18,9 @@
         <div class="container-grid conteudo-header">
             <img class="logo" src="img/logos_senai_branco.png" alt="Logo senai">
             <nav id="menu-header" class="menu-header">
-                <a href="#" title="Início da página"><p>Início</p></a>
-                <a href="#mouse"><p>Sobre</p></a>
-                <a href="#endereço"><p>Endereço</p></a>
+                <a class="botao" href="#" title="Início da página"><p>Início</p></a>
+                <a class="botao" href="#mouse"><p>Sobre</p></a>
+                <a class="botao" href="#texto-endereco"><p>Endereço</p></a>
                 <a class="botao" href="mailto.example@email.com"><p>Contate-nos</p></a>
             </nav>
             <a class="menu-barras" href="javascript: void(0)" onclick="mostrarMenu()">
@@ -30,11 +30,13 @@
     </header>
     <main>
         <div class="banner">
-            <div class="texto-banner">
-                <h1>Cursos técnicos Senai</h1>
-                <div class="linha-amarela">
-                <span class="titulo-senai">Senai Informática</span>
-                <img class="mouse" id="mouse" src="./img/mouse-down.png">
+            <div class="container-grid conteudo-banner">
+                <div class="texto-banner">
+                    <h1>Cursos técnicos Senai</h1>
+                    <div class="linha-amarela"></div>
+                    <span class="titulo-senai">Senai Informática <br></span>
+                    <img class="mouse" id="mouse" src="./img/mouse-down.png">
+                
                 </div>
             </div>
         </div>

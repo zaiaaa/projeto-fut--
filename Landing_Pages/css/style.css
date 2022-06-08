@@ -1,4 +1,4 @@
-@import url('https://googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 *{
     margin:0;
@@ -10,6 +10,8 @@ body{
 }
 .container-grid{
     width: 85%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 header{
     z-index: 1;
@@ -27,6 +29,7 @@ header{
 }
 .logo{
     height:40px;
+    
 }
 .menu-header{
     width: 50%;
@@ -35,7 +38,7 @@ header{
     align-items: center;
 }
 .menu-header a{
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     font-size: 1.25em;
     transition: 0.5s;
@@ -43,7 +46,7 @@ header{
 .menu-header a:hover:not(.botao){
     font-size: 1.6em;
     transition: 0.5s;
-    text-shadow: 4px 4px 6px #000007
+    text-shadow: 4px 4px 6px #000000
 }
 .botao{
     background-color: rgb(255, 255, 255);
@@ -52,7 +55,8 @@ header{
     text-align: center;
     line-height: 47px;
     font-size: 1.5em !important;
-    border: solid 1px #080324;
+    border: solid 1px #000000;
+    margin: 5px;
 }
 .botao:hover{
     font-size: 1.6em!important;
@@ -60,7 +64,7 @@ header{
     line-height: 50px;
     width: 160px;
     transition: 0.3s;
-    box-shadow: 4px 4px 6px #000007;
+    box-shadow: 4px 4px 6px #000000;
 }
 .menu-barras{
     display: none;
@@ -72,34 +76,43 @@ header{
     background-position: center;
     background-size: cover;
 }
+.conteudo-banner{
+    display: flex;
+    align-items: flex-end ;
+    height: 100%;
+}
+
 .texto-banner{
     display: flex;
     flex-direction: column;
     height: 60%;
     justify-content: space-around;
 }
-
-.conteudo-banner{
-    display: flex;
-    align-items: flex-end ;
-    height: 100%;
-}
 h1{
     color:white;
     font-size: 80px;
+    
+   
+    
 }
 .linha-amarela{
-    border: solid 1px #ffaf00;
+    border: solid 1px yellow;   
 }
+
 .titulo-senai{
     font-family: 'Courier New', Courier, monospace;
     color: crimson;
     font-size: 50px;
     text-transform: uppercase;
     font-weight: 600;
+    
+    
+    
 }
-.mouse{
+#mouse{
     width: 80px;
+    
+    
 }
 p{
     color: #000000;
@@ -109,7 +122,7 @@ p{
 .sobre-projetos{
     background-color: #080324;
     padding-top: 40px;
-    padding-bottom: 30px;
+    padding-bottom: 40px;
 }
 .sobre-projetos h2{
     color: #F9003D;
@@ -122,12 +135,12 @@ p{
     justify-content: space-between;
 }
 .imagem-sobre{
-    width: 50%;
+    width: 40%;
 }
 .texto-sobre{
     width: 50%;
 }
-.texto-participante{
+.texto-participantes{
     color: white;
     font-family: 'Courier New', Courier, monospace;
     text-transform: uppercase;
@@ -198,7 +211,7 @@ p{
 }
 .texto-endereco p{
     width: 400px;
-    font-size: 30px;
+    font-size: 20px;
     color: #7811d8;
 }
 .container-mapa{
@@ -210,7 +223,7 @@ p{
 
 .mapa-responsivo{
     position: absolute;
-    margin-top: 20px;
+    margin-top: 10px;
     top: 0;
     left: 0;
     bottom: 0;
@@ -226,7 +239,7 @@ p{
 }
 .video-responsivo{
     position: absolute;
-    margin-top: 20px;
+    margin-top: 10px;
     top: 0;
     left: 0;
     bottom: 0;
@@ -245,4 +258,5 @@ footer{
 .ft{
     margin-left: 800px;
     margin-top: 30px;
+
 }
