@@ -48,6 +48,15 @@ header{
     transition: 0.5s;
     text-shadow: 4px 4px 6px #000000
 }
+.whatsapp{
+    position: fixed;
+    z-index: 2;
+    top: 200px;
+    right: 40px;
+}
+.whatsapp img{
+    height: 60px;
+}
 .botao{
     background-color: rgb(255, 255, 255);
     height: 45px;
